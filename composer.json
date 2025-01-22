@@ -1,0 +1,30 @@
+{
+    "name": "bytedesk/laravel-chat",
+    "description": "ByteDesk客服系统的Laravel插件",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ByteDesk",
+            "email": "contact@bytedesk.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bytedesk\\LaravelChat\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bytedesk\\LaravelChat\\BytedeskServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+} 
